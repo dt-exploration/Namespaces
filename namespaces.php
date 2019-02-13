@@ -2,8 +2,8 @@
 
 namespace DutjaProject\Wild;
 
-$x=5;
-define("dux",1992);
+$x = 5;
+define("dux", 1992);
 const DUSKO = 'dulence';
 
 function sort($d)
@@ -24,7 +24,7 @@ static $broj_decaka;
 
 public function __construct($godine_param)
 {
-    $this->godine=$godine_param;
+    $this->godine = $godine_param;
     self::$broj_decaka++;
 }
 
@@ -35,7 +35,7 @@ public function getGodine()
 
 public static function broj_decaka_init()
 {
-    self::$broj_decaka=0;
+    self::$broj_decaka = 0;
 }
 
 public static function getBrDecaka()
