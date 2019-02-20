@@ -11,7 +11,7 @@ function sort($d)
     $s=0;
 
     for($i = 0; $i < count($d); $i++) {
-        $s=$s+$d[$i];
+        $s = $s + $d[$i];
     }
 
     return $s;
