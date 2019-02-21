@@ -30,6 +30,7 @@ public function __construct($godine_param)
 
 public function getGodine()
 {
+    echo "$this->godine";
     return $this->godine;
 }
 

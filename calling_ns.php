@@ -4,7 +4,7 @@
 use DutjaProject\Wild;
 
 require_once("D:/xampp/htdocs/symphart/public/namespaces.php");
-header('Content-type: text/plain');
+//header('Content-type: text/plain');
 
 $niz = array(5, 4, 7, 2, 6, 4, 9, 1);
 
