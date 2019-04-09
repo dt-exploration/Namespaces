@@ -8,7 +8,7 @@ const DUSKO = 'dulence';
 
 function sort($d)
 {
-    $s=0;
+    $s = 0;
 
     for($i = 0; $i < count($d); $i++) {
         $s = $s + $d[$i];
